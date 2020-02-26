@@ -30,7 +30,7 @@ The example below will create a redis cache:
 ```hcl
 module "redis_cache" {
 
-  git@github.com:stone-payments/terraform-azure-rediscache.git?ref=v1.0.0" # see tags for available versions./modules/redis"
+  "git@github.com:stone-payments/terraform-azure-rediscache.git?ref=v1.0.0" # see tags for available versions./modules/redis"
 
   redis_cache_name                = var.redis_cache_name
   redis_cache_location            = var.location
