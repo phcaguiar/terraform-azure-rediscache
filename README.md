@@ -6,6 +6,7 @@ This module creates an Azure Redis Cache following the best practices defined by
 
 - Terraform version 0.12+
 - Azurerm Provider version 2.0+ (tested on version 2.0.0)
+- Terraform Null Provider version 2.1.2
 
 ## How to use
 
