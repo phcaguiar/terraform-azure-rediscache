@@ -32,12 +32,12 @@ module "redis_cache" {
 
   "git@github.com:stone-payments/terraform-azure-rediscache.git?ref=v1.0.0" # see tags for available versions./modules/redis"
 
-  redis_cache_name                = var.redis_cache_name
-  redis_cache_location            = var.location
-  redis_cache_resource_group_name = var.resource_group_name
-  redis_cache_capacity            = var.redis_cache_capacity
-  redis_cache_family              = var.redis_cache_family
-  redis_cache_sku_name            = var.redis_cache_sku_name
+  redis_cache_name                = "..."
+  redis_cache_location            = "..."
+  redis_cache_resource_group_name = "..."
+  redis_cache_capacity            = "..."
+  redis_cache_family              = "..."
+  redis_cache_sku_name            = "..."
 
 }
 ```
