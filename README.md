@@ -23,6 +23,7 @@ The following parameters are mandatory to enable geo replication:
 - ``has_redis_cache_georeplication``: To use this configuration, set value to `true`. To enable geo replication, it is necessary to create two redis in different regions.
 - ``redis_cache_georeplication_name``: The name of the geo replication redis cache
 
+Note: See all variables in `variables.tf` file.
 
 The example below will create a redis cache:
 
