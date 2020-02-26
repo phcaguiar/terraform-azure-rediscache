@@ -11,6 +11,8 @@ This module creates an Azure Redis Cache following the best practices defined by
 
 The following parameters are mandatory for all resources of this module:
 
+Note: See all variables in `variables.tf` file.
+
 - ``redis_cache_resource_group_name``: All resources in this module will be created in this resource group. Ex: Infrastructure-Common-EC2-DEV
 - ``redis_cache_name``: Name of the redis cache.
 - ``redis_cache_location``: The location of the redis cache
@@ -22,8 +24,6 @@ The following parameters are mandatory to enable geo replication:
 
 - ``has_redis_cache_georeplication``: To use this configuration, set value to `true`. To enable geo replication, it is necessary to create two redis in different regions.
 - ``redis_cache_georeplication_name``: The name of the geo replication redis cache
-
-Note: See all variables in `variables.tf` file.
 
 The example below will create a redis cache:
 
