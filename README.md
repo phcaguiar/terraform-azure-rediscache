@@ -11,7 +11,7 @@ This module creates an Azure Redis Cache following the best practices defined by
 
 The following parameters are mandatory for all resources of this module:
 
-Note: See all variables in `variables.tf` file.
+Note: See all variables options in `variables.tf` file.
 
 - ``redis_cache_resource_group_name``: All resources in this module will be created in this resource group. Ex: Infrastructure-Common-EC2-DEV
 - ``redis_cache_name``: Name of the redis cache.
