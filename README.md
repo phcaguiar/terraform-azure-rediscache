@@ -28,7 +28,7 @@ The example below will create a redis cache:
 
 ```hcl
 module "redis_cache" {
-  
+
   git@github.com:stone-payments/terraform-azure-rediscache.git?ref=v1.0.0" # see tags for available versions./modules/redis"
 
   redis_cache_name                = var.redis_cache_name
@@ -37,10 +37,6 @@ module "redis_cache" {
   redis_cache_capacity            = var.redis_cache_capacity
   redis_cache_family              = var.redis_cache_family
   redis_cache_sku_name            = var.redis_cache_sku_name
-  redis_cache_enable_non_ssl_port = var.redis_cache_enable_non_ssl_port
-  redis_cache_maxmemory_policy   = var.redis_cache_maxmemory_policy
-  redis_cache_maxmemory_reserved = var.redis_cache_maxmemory_reserved
-  redis_cache_maxmemory_delta    = var.redis_cache_maxmemory_delta
 
 }
 ```
